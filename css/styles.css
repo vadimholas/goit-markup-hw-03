@@ -126,17 +126,32 @@ button{
   list-style: none;
 }
 /*------------main-------------*/
+.filter-container{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.items-btn{
+  display: block;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 34px;
+}
 .btn {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.6;
-  cursor: pointer;
-  text-align: center;
+  line-height: 1.16;
   letter-spacing: 0.03em;
+
+  width: 128px;
+  height: 38px;
+  margin-right: 8px;
+  border: rgba(117, 117, 117, 1);
 }
 .btn:hover,
 :focus {
-  color: var(--accent-text-color);
+  background-color: var(--accent-text-color);
+  color:#ffffff;
+
 }
 
 .title-foto {
@@ -218,9 +233,21 @@ font-size: 44px;
   margin-top: 30px;
   width: 200px;
   height: 50px;
+}
+.list-foto{
+  display: flex;
+  flex-wrap: wrap;
+}
+.item-foto{
+  margin-right: 30px;
   
-
-
+}
+.title-foto {
+  margin-top: 20px;
+}
+.text-foto{
+  margin-top: 4px;
+  margin-bottom: 30px;
 }
 /*---------------INFO----------------*/
 .container-info{
