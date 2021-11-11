@@ -11,18 +11,19 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <header class="header">
-        <a href="./index.html" class="header-logo"><span class="accent">Web</span>Studio</a>
+        <div class="container nav-header">
+        <a href="./index.html" class="header-logo">
+            <span class="accent">Web</span>Studio
+        </a>
         <nav class="header-nav">
             <ul class="list list-header">
-                <li> <a class="link link-header " href="./index.html">Студия</a></li>
+                <li> <a class="link link-header" href="./index.html">Студия</a></li>
                 <li> <a class="link link-header current" href="./portfolio.html">Портфолио</a></li>
                 <li> <a class="link link-header" href="">Контакты</a></li>
             </ul>
@@ -31,8 +32,10 @@
             <li><a class="link link-contact-header" href="mailto:info@example.com">info@devstudio.com</a></li>
             <li><a class="link link-contact-header" href="tel:+380991111111">+38 096 111 11 11</a></li>
         </ul>
+    </div>
     </header>
     <main>
+        <div class="container">
         <h1 class="visually-hidden">Фильтр</h1>
         <section>
             <ul class="list item-btn ">
@@ -90,11 +93,12 @@
                 </li>
             </ul>
         </section>
-
+</div>
     </main>
 
     <!--футер-->
     <footer class="footer">
+        <div class="container">
         <a href="./index.html" class="header-logo">
             <span class="accent-text">Web</span><span class="accent-footer">Studio</span>
         </a>
@@ -106,7 +110,7 @@
                 <li><a class="link link-contact" href="tel:+380991111111">+38 096 111 11 11</a></li>
             </ul>
         </address>
-
+</div>
     </footer>
 
 

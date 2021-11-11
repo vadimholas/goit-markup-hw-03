@@ -12,7 +12,28 @@ body {
   font-size: 16px;
   line-height: 1.87em;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  margin:0;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+button{
+  cursor: pointer;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
 
+}
 /*------------HEADER------------------*/
 .visually-hidden {
   position: absolute;
@@ -24,7 +45,6 @@ body {
   padding: 0;
   overflow: hidden;
 }
-
 .header-logo {
   color: var(--title-text-color);
   font-family: Raleway;
@@ -33,24 +53,46 @@ body {
   line-height: 1.15;
   letter-spacing: 0.03em;
   text-decoration: none;
+  display: block;
+
+  margin-top: 24px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  
+
 }
 .accent {
   color: var(--accent-text-color);
 }
+.list-header{
+  display:flex;
+  margin-left:  93px;;
+}
+.list-header .link-header:not(last-child){
+    margin-right: 50px;
+}
+
+
 .link-header {
+  display:block;
+  padding-top: 32px; ;
+  padding-bottom: 32px;
+
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  
 }
-.current{
-  color: var(--accent-text-color);
-}
+
 .link-header:hover,
 :focus {
   color: #2196f3;
+}
+.current{
+  color: var(--accent-text-color);
 }
 .link-contact-header {
     color: rgba(117, 117, 117, 1);
@@ -65,8 +107,20 @@ body {
   color: #2196f3;
   text-decoration: none;
 }
+.nav-header{
+  display:flex;
+  align-items: center;
+}
+.list-contact{
+  display:flex;
+  margin-left: auto;
+}
+.link-contact-header:not(last-child){
+  margin-right: 50px;
+}
 .link {
   list-style: none;
+  text-decoration: none;
 }
 .list {
   list-style: none;
@@ -92,6 +146,12 @@ body {
   line-height: 2;
 }
 /*---------------------FOOTER----------------------*/
+
+.footer-container
+{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 .accent-text {
   color: var(--accent-text-color);
   font-family: Raleway;
@@ -100,11 +160,7 @@ body {
   line-height: 1.15;
   text-decoration: none;
 }
-.header-logo {
-  display: inline-block;
-  margin-top: 20px;
-  margin-left: 40px;
-}
+
 .accent-footer {
   color: var(--primary-fon-color);
 }
@@ -128,13 +184,21 @@ body {
 }
 
 /*------------------HERO----------------*/
-.hero {
-  background: #2f303a;
+
+.hero-container{
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: #2F303A
+}
+.title-hero {
+  display: block;
+  margin-top:auto;
+  
 }
 .title-hero {
   color: #ffffff;
-  font-weight: 900;
-  font-size: 44px;
+font-weight: 900;
+font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
@@ -145,12 +209,33 @@ body {
   color: #ffffff;
   font-size: 16px;
   line-height: 1.87;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   
 }
+.title-btn{
+  display:block;
+  margin: auto;
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+  
+
+
+}
 /*---------------INFO----------------*/
+.container-info{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.list-info{
+  display:flex;
+}
+.list-info .item-info:not(last-child) {
+  padding-right: 30px;
+}
+.title-info{
+  padding-bottom: 10px;
+}
 .title-info {
   font-weight: bold;
   font-size: 14px;
@@ -167,6 +252,20 @@ body {
   letter-spacing: 0.03em;
 }
 /*----------WORK----------------*/
+.title-work{
+  margin-bottom: 50px;
+}
+.container-work{
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+}
+.list-work{
+  display: flex;
+}
+.item-work:not(last-child){
+  padding-right: 30px;
+}
 .title-work {
   font-style: normal;
   font-weight: bold;
@@ -177,6 +276,19 @@ body {
   color: #212121;
 }
 /*------------------TEAM-------------*/
+.title-team{
+  margin-bottom:50px;
+}
+.container-team{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.list-team{
+  display: flex;
+}
+.item-team{
+  padding-right: 30px;
+}
 .title-team {
   font-style: normal;
   font-weight: bold;
@@ -194,6 +306,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+
+  margin-top: 30px;
 }
 .text-team {
   font-style: normal;
@@ -202,4 +316,6 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+
+margin-top: 10px;
 }
