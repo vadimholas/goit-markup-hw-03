@@ -31,7 +31,9 @@ button{
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1170px;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
 
 }
 img {
@@ -60,9 +62,6 @@ img {
   letter-spacing: 0.03em;
   text-decoration: none;
   display: block;
-
-  margin-top: 24px;
-  margin-bottom: 25px;
   
 
 }
@@ -90,11 +89,11 @@ img {
   text-decoration: none;
   
 }
-
-.link-header:hover,
-:focus {
-  color: #2196f3;
+.link-header:hover,:focus{
+  color: var(--accent-text-color);
 }
+
+
 .current{
   color: var(--accent-text-color);
 }
@@ -108,7 +107,7 @@ img {
   }
 .link-contact-header:hover,
 :focus {
-  color: #2196f3;
+  color:var(--accent-text-color);
   text-decoration: none;
 }
 .nav-header{
@@ -192,16 +191,10 @@ img {
 }
 /*---------------------FOOTER----------------------*/
 
-.footer-container
-{
-  padding-top: 60px;
-  padding-bottom: 60px;
-  
-
-}
 .footer{
   background-color:  #2F303A;
-  
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 .accent-text {
   color: var(--accent-text-color);
@@ -223,6 +216,7 @@ img {
   line-height: 1.71;
   font-style: normal;
   text-decoration: none;
+  
 }
 .link-contact {
   font-family: Roboto, sans-serif;
@@ -230,11 +224,18 @@ img {
   color:  rgba(255, 255, 255, 0.6);
 }
 
+.adress-footer{
+  margin-top: 20px
+}
+.contact-footer{
+  margin-top: 4px;
+}
+
 /*------------------HERO----------------*/
 
 .hero-container{
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: #2F303A;
   max-width: 1600px;
 }
@@ -309,9 +310,7 @@ font-size: 44px;
   height: auto;
   width: 370px;
 }
-.title-work{
-  margin-bottom: 50px;
-}
+
 .container-work{
   padding-top: 94px;
   padding-bottom: 94px;
