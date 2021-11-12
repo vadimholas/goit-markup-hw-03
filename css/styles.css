@@ -116,7 +116,7 @@ img {
   align-items: center;
 }
 .header{
-  border: 1px solid #ECECEC;
+  border-bottom:  1px solid #ECECEC;
 }
 .list-contact{
   display:flex;
