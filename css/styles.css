@@ -31,7 +31,7 @@ button{
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
+  width: 1170px;
 
 }
 img {
@@ -122,7 +122,7 @@ img {
   display:flex;
   margin-left: auto;
 }
-.link-contact-header:not(last-child){
+.link-contact-header {
   margin-right: 50px;
 }
 .link {
@@ -196,6 +196,12 @@ img {
 {
   padding-top: 60px;
   padding-bottom: 60px;
+  
+
+}
+.footer{
+  background-color:  #2F303A;
+  
 }
 .accent-text {
   color: var(--accent-text-color);
@@ -222,10 +228,6 @@ img {
   font-family: Roboto, sans-serif;
   font-style: normal;
   color:  rgba(255, 255, 255, 0.6);
-}
-.footer {
-  background-color: rgba(47, 48, 58, 1);
-;
 }
 
 /*------------------HERO----------------*/
