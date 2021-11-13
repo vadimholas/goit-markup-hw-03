@@ -142,6 +142,10 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.title-border{
+  padding-bottom:20px;
+  ;
+}
 .items-btn{
   display: block;
   display: flex;
@@ -198,7 +202,6 @@ img {
   margin-bottom: 0;
 }
 .text-foto{
-  margin-top: 4px;
   margin-left: 24px;
 }
 /*---------------------FOOTER----------------------*/
@@ -254,17 +257,19 @@ img {
 
 /*------------------HERO----------------*/
 .hero{
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: #2F303A;
   margin-left: auto;
   margin-right: auto;
   width: 1600px;
+  padding-bottom: 200px;
+  padding-top: 200px;
 }
+
 .title-hero {
   display: block;
   margin-top:auto;
-  
 }
 .title-hero {
   color: #ffffff;
