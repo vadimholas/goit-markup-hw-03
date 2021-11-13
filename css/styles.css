@@ -188,7 +188,6 @@ img {
 .item-foto{
   border: 1px solid var(--primary-fon-color);
   background-color: white;
-  border-top: none;
 }
 
 .item-foto:nth-child(3n){
